@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1508615039623-a25605d2b022?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    height: 12vh;
+    justify-content: space-between;
+    padding: 4vh;
+    height: 13vh;
+    text-align: center;
+    background-color: white;
+}
+
+.logo {
+    margin-top: -15px;
+    margin-left: 3vh;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-right: 8px;
+    padding: 5px;
+    cursor: pointer;
+    border-top: 1px solid white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a :hover {
+    border-top: 1px solid black;
+}
+
+
+.user-pleace img {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 0px;
+    color: rgb(0, 0, 65);
+}
+
+.main1 {
+    display: flex;
+    margin: 80px;
+    margin-top: 55px;
+    margin-bottom: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main2 {
+    display: flex;
+    margin: 80px;
+    margin-top: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.curso1, .curso2, .curso3, .curso4 {
+    display: grid;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.226);
+    color: rgb(0, 0, 65);
+}
+
+.curso5, .curso6, .curso7, .curso8 {
+    display: grid;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.226);
+    color: rgb(0, 0, 65);
+}
+
+h2 {
+    padding-bottom: 15px;
+}
+
+input {
+    margin-top: 2vh;
+    padding: 1vh;
+    font-size: large;
+    color: rgb(0, 0, 65);
+    background-color: rgb(138, 165, 156);
+    border: none;
+    border-radius: 5px;
+}

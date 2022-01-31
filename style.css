@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1508615039623-a25605d2b022?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    height: 12vh;
+    justify-content: space-between;
+    padding: 4vh;
+    height: 13vh;
+    text-align: center;
+    background-color: white;
+}
+
+.logo {
+    margin-top: -15px;
+    margin-left: 3vh;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-right: 8px;
+    padding: 5px;
+    cursor: pointer;
+    border-top: 1px solid white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.a-menu :hover {
+    border-top: 1px solid black;
+    background-color: transparent;
+    color: black;
+}
+
+.user-pleace img {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(18, 16, 44);
+    text-align: center;
+}
+
+h2 {
+    margin-top: 10vw;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 3.5vw;
+    margin-top: 2vw;
+}
+
+p {
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+input {
+    padding: 14px 0px 14px 0px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.678);
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+a :hover  {
+    background-color: rgb(18, 16, 44);
+    color: white;
+}

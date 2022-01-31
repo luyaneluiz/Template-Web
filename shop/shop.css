@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1508615039623-a25605d2b022?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    height: 12vh;
+    justify-content: space-between;
+    padding: 4vh;
+    height: 13vh;
+    text-align: center;
+    background-color: white;
+}
+
+.logo {
+    margin-top: -15px;
+    margin-left: 3vh;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-right: 8px;
+    padding: 5px;
+    cursor: pointer;
+    border-top: 1px solid white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a :hover {
+    border-top: 1px solid black;
+}
+
+a :active {
+    border-bottom: 1px solid black;
+}
+
+.user-pleace img {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 0px;
+    color: rgb(0, 0, 65);
+}
+
+.item {
+    display: block;
+}
+
+.img-item {
+    border-radius: 1%;
+}
+
+.label {
+    display: flex;
+}
+
+.carrinho {
+    background-color: rgba(255, 255, 255, 0.226);
+    width: 20vh;
+    margin-right: 4px;
+    text-align: center;
+    padding: 1.1vh;
+    border-radius: 0.5vh;
+    cursor: pointer;
+}
+
+.favoritar {
+    background-color: rgba(255, 255, 255, 0.226);
+    width: 10vh;
+    text-align: center;
+    padding-top: 1.3vh;
+    border-radius: 0.5vh;
+    cursor: pointer;
+}
+
+.grupo1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 7vh 15vh 10vh 15vh;
+}
