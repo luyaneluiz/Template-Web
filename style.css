@@ -8,6 +8,8 @@ body {
     background-image: url(https://images.unsplash.com/photo-1508615039623-a25605d2b022?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    max-width: 1900px;
 }
 
 header {
@@ -58,22 +60,24 @@ main {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(18, 16, 44);
     text-align: center;
+    font-size: 16px;
+    margin-top: 10%;
 }
 
 h2 {
-    margin-top: 10vw;
     font-weight: lighter;
     letter-spacing: 3px;
     font-size: 1.2em;
 }
 
 h1 {
-    font-size: 3.5vw;
+    font-size: 3.5em;
     margin-top: 2vw;
 }
 
 p {
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
     margin: auto;
     margin-top: 20px;
 }
@@ -94,4 +98,48 @@ input {
 a :hover  {
     background-color: rgb(18, 16, 44);
     color: white;
+}
+
+@media (max-width: 1133.60px) {
+    body {
+        height: 748px;
+    }
+
+    main {
+        margin-top: 14%;
+    }
+}
+
+@media (max-width: 657.60px) {
+    .user-pleace img {
+        margin-left: 0px;
+    }
+
+    li {
+        font-size: 0px;
+    }
+
+    main {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width: 588px) {
+    .logo {
+        margin-left: 0;
+    }
+
+    li {
+        font-size: 0px;
+    }
+
+    main {
+        font-size: 90%;
+        padding: 4%;
+        margin-top: 20%;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
 }

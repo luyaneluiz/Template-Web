@@ -99,3 +99,46 @@ h1 {
     justify-content: space-between;
     margin: 7vh 15vh 10vh 15vh;
 }
+
+@media (max-width: 1133.60px) {
+    body {
+        height: 748px;
+    }
+
+    .item {
+        height: 300px;
+    }
+}
+
+@media (max-width: 672px) {
+    .user-pleace img {
+        margin-left: 0px;
+    }
+
+    li {
+        font-size: 0px;
+    }
+
+    main {
+        margin-top: 14%;
+    }
+}
+
+@media (max-width: 588px) {
+    .logo {
+        margin-left: 0;
+    }
+
+    li {
+        font-size: 0px;
+    }
+
+    main {
+        font-size: 90%;
+        padding: 4%;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+}
