@@ -12,22 +12,28 @@ body {
 
 header {
     display: flex;
-    height: 12vh;
     justify-content: space-between;
-    padding: 4vh;
-    height: 13vh;
-    text-align: center;
+    padding: 30px;
+    height: 85px;
     background-color: white;
 }
 
 .logo {
-    margin-top: -15px;
+    display: flex;
+    align-items: center;
     margin-left: 3vh;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
 }
 
 ul {
     list-style: none;
     display: flex;
+    align-items: center;
 }
 
 li {
@@ -42,17 +48,18 @@ a {
     color: black;
 }
 
-a :hover {
+.a-menu :hover {
     border-top: 1px solid black;
+    background-color: transparent;
+    color: black;
 }
 
-a :active {
-    border-bottom: 1px solid black;
-}
-
-.user-pleace img {
+.user-pleace {
     margin-left: 10px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    float: left;
 }
 
 h1 {
@@ -63,21 +70,35 @@ h1 {
     color: rgb(0, 0, 65);
 }
 
+.grupo1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2% 5% 2% 5%;
+}
+
 .item {
-    display: block;
+    display: inline-grid;
+    margin: 15px;
+    width: 210px;
+    flex-basis: auto;
 }
 
 .img-item {
+    width: 100%;
     border-radius: 1%;
+    margin-bottom: 5px;
 }
 
 .label {
     display: flex;
+    width: 100%;
 }
 
 .carrinho {
     background-color: rgba(255, 255, 255, 0.226);
-    width: 20vh;
+    width: 70%;
     margin-right: 4px;
     text-align: center;
     padding: 1.1vh;
@@ -87,58 +108,94 @@ h1 {
 
 .favoritar {
     background-color: rgba(255, 255, 255, 0.226);
-    width: 10vh;
+    width: 30%;
     text-align: center;
     padding-top: 1.3vh;
     border-radius: 0.5vh;
     cursor: pointer;
 }
 
-.grupo1 {
-    display: flex;
-    justify-content: space-between;
-    margin: 7vh 15vh 10vh 15vh;
-}
+@media (min-width: 1200px) {
 
-@media (max-width: 1133.60px) {
-    body {
-        height: 748px;
+    header {
+        height: 95px;
+        padding: 15px;
     }
 
-    .item {
-        height: 300px;
+    li {
+        font-size: 18px;
+        margin-right: 15px;
+    }
+    
+    p {
+        font-size: 1.2em;
     }
 }
 
-@media (max-width: 672px) {
-    .user-pleace img {
-        margin-left: 0px;
+@media (max-width: 1300px) {
+
+    header {
+        height: 100px;
+        padding: 20px;
+    }
+
+    li {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+
+    p {
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 900px) {
+
+    header {
+        height: 100px;
+        padding: 20px;
+    }
+
+    li {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+
+    p {
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 800px) {
+
+    header {
+        height: 80px;
+        padding: 10px;
+    }
+
+    .logo img {
+        width: 50px;
+        height: 50px;
     }
 
     li {
         font-size: 0px;
     }
-
-    main {
-        margin-top: 14%;
-    }
 }
 
-@media (max-width: 588px) {
-    .logo {
-        margin-left: 0;
+@media (max-width: 520px) {
+
+    header {
+        height: 70px;
+        padding: 10px;
+    }
+
+    .logo img {
+        width: 45px;
+        height: 45px;
     }
 
     li {
         font-size: 0px;
-    }
-
-    main {
-        font-size: 90%;
-        padding: 4%;
-    }
-
-    h1 {
-        font-size: 34px;
     }
 }

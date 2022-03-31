@@ -8,29 +8,32 @@ body {
     background-image: url(https://images.unsplash.com/photo-1508615039623-a25605d2b022?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    max-width: 1900px;
 }
 
 header {
     display: flex;
-    height: 12vh;
     justify-content: space-between;
-    padding: 4vh;
-    height: 13vh;
-    text-align: center;
+    padding: 30px;
+    height: 85px;
     background-color: white;
 }
 
 .logo {
-    margin-top: -15px;
+    display: flex;
+    align-items: center;
     margin-left: 3vh;
     cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
 }
 
 ul {
     list-style: none;
     display: flex;
+    align-items: center;
 }
 
 li {
@@ -51,35 +54,42 @@ a {
     color: black;
 }
 
-.user-pleace img {
+.user-pleace {
     margin-left: 10px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    float: left;
 }
 
 main {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(18, 16, 44);
+    height: 85vh;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 16px;
-    margin-top: 10%;
 }
 
 h2 {
     font-weight: lighter;
     letter-spacing: 3px;
-    font-size: 1.2em;
 }
 
 h1 {
-    font-size: 3.5em;
-    margin-top: 2vw;
+    font-size: 3.2em;
+    margin: 2vh;
 }
 
 p {
-    width: 100%;
-    max-width: 600px;
-    margin: auto;
-    margin-top: 20px;
+    color: rgb(31, 33, 61);
+    font-size: 1.2em;
+    font-weight: lighter;
+    max-width: 800px;
+    margin: 4vh;
 }
 
 input {
@@ -91,7 +101,7 @@ input {
     cursor: pointer;
     font-weight: bold;
     background-color: rgba(255, 255, 255, 0.678);
-    margin-top: 50px;
+    margin-top: 1vh;
     margin-right: 10px;
 }
 
@@ -100,46 +110,126 @@ a :hover  {
     color: white;
 }
 
-@media (max-width: 1133.60px) {
+@media (min-width: 900px) {
     body {
-        height: 748px;
+        height: 100vh;
     }
 
-    main {
-        margin-top: 14%;
+    header {
+        height: 95px;
+        padding: 15px;
+    }
+
+    li {
+        font-size: 18px;
+        margin-right: 15px;
+    }
+    
+    p {
+        font-size: 1.2em;
+    }
+
+    input {
+        font-size: 16px;
+        padding: 18px 0 18px 0;
     }
 }
 
-@media (max-width: 657.60px) {
-    .user-pleace img {
-        margin-left: 0px;
+@media (max-width: 900px) {
+    body {
+        height: 100vh;
+    }
+
+    header {
+        height: 100px;
+        padding: 20px;
+    }
+
+    li {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+
+    p {
+        font-size: 1.3em;
+    }
+
+    input {
+        font-size: 16px;
+        padding: 18px 0 18px 0;
+    }
+}
+
+@media (max-width: 800px) {
+    body {
+        height: 100vh;
+    }
+
+    header {
+        height: 80px;
+        padding: 10px;
+    }
+
+    .logo img {
+        width: 50px;
+        height: 50px;
     }
 
     li {
         font-size: 0px;
     }
 
-    main {
-        margin-top: 20%;
-    }
-}
-
-@media (max-width: 588px) {
-    .logo {
-        margin-left: 0;
-    }
-
-    li {
-        font-size: 0px;
-    }
-
-    main {
-        font-size: 90%;
-        padding: 4%;
-        margin-top: 20%;
+    h2 {
+        font-size: 1.4em;
     }
 
     h1 {
-        font-size: 34px;
+        font-size: 2.3em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    input {
+        font-size: 14px;
+        padding: 15px 0 15px 0;
+    }
+}
+
+@media (max-width: 520px) {
+    body {
+        height: 100vh;
+    }
+
+    header {
+        height: 70px;
+        padding: 10px;
+    }
+
+    .logo img {
+        width: 45px;
+        height: 45px;
+    }
+
+    li {
+        font-size: 0px;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    input {
+        font-size: 12px;
+        padding: 12px 0 12px 0;
     }
 }
