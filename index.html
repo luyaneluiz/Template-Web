@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/LOREM-IPSUM.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/body.css">
     <title>Lorem Ipsum</title>
 </head>
 
@@ -19,28 +20,35 @@
         <nav class="menu">
             <ul>
                 <a href="#" class="a-menu"><li>HOME</li></a>
-                <a href="shop/shop.html" class="a-menu"><li>SHOP</li></a>
-                <a href="courses/courses.html" class="a-menu"><li>COURSES</li></a>
-                <a href="services/services.html" class="a-menu"><li>SERVICES</li></a>
-                <a href="blog/blog.html" class="a-menu"><li>BLOG</li></a>
-                <a href="about/about.html" class="a-menu"><li>ABOUT</li></a>
+                <a href="pages/shop.html" class="a-menu"><li>SHOP</li></a>
+                <a href="pages/courses.html" class="a-menu"><li>COURSES</li></a>
+                <a href="pages/services.html" class="a-menu"><li>SERVICES</li></a>
+                <a href="pages/blog.html" class="a-menu"><li>BLOG</li></a>
+                <a href="pages/about.html" class="a-menu"><li>ABOUT</li></a>
             </ul>
         </nav>
 
         <div class="user-pleace">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <circle cx="12" cy="7" r="4" />
-                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
-            </svg>
+            <ul class="menu-dropdown">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="34" height="34" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <line x1="4" y1="6" x2="20" y2="6" />
+                    <line x1="4" y1="12" x2="20" y2="12" />
+                    <line x1="4" y1="18" x2="20" y2="18" />
+                </svg>
 
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="34" height="34" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <line x1="4" y1="6" x2="20" y2="6" />
-                <line x1="4" y1="12" x2="20" y2="12" />
-                <line x1="4" y1="18" x2="20" y2="18" />
-              </svg> 
+                <ul class="drop">
+                    <a href="#" class="menu-drop"><li>HOME</li></a>
+                    <a href="pages/shop.html" class="menu-drop"><li>SHOP</li></a>
+                    <a href="pages/courses.html" class="menu-drop"><li>COURSES</li></a>
+                    <a href="pages/services.html" class="menu-drop"><li>SERVICES</li></a>
+                    <a href="pages/blog.html" class="menu-drop"><li>BLOG</li></a>
+                    <a href="pages/about.html" class="menu-drop"><li>ABOUT</li></a>
+                </ul>
+            </ul>
         </div>
+
+        <div class="space"></div>
 
     </header>
 
@@ -52,8 +60,8 @@
         </div>
 
         <form>
-            <a href="/services/services.html"><input type="buttom" value="LEARN MORE"></a>
-            <a href="/shop/shop.html"><input type="buttom" value="SHOP"></a>
+            <a href="pages/services.html"><input type="buttom" value="LEARN MORE"></a>
+            <a href="pages/shop.html"><input type="buttom" value="SHOP"></a>
         </form>
     </main>
 </body>

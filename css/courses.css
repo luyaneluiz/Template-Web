@@ -1,0 +1,42 @@
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 0px;
+    color: rgb(0, 0, 65);
+}
+
+.grupo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2% 5% 2% 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.curso {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+    background-color: rgba(255, 255, 255, 0.226);
+    color: rgb(0, 0, 65);
+}
+
+h2 {
+    padding-bottom: 15px;
+}
+
+input {
+    margin-top: 2vh;
+    padding: 1vh;
+    font-size: large;
+    color: rgb(0, 0, 65);
+    background-color: rgb(192, 196, 240);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
